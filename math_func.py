@@ -13,7 +13,18 @@ def cylinder_area(r,h):
     area=round(3.14*r*r*h,2)
     print("Area of the cylinder is ",area)
 
+def cylinder_perimeter(r,h):
+    perimeter=round(2*3.14*r*(r+h),2)
+    print("perimeter of the cylindr is",perimeter)
+
+def sphere_area(r,h):
+    perimeter=round(2*3.14*r*(r+h),2)
+    print("perimeter of the cylindr is",perimeter)
+
+
     
 area(r)
 perimeter(r)
 cylinder_area(r,h)
+cylinder_perimeter(r,h)
+sphere_area(r,h)
